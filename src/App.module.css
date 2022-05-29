@@ -1,3 +1,10 @@
-.App {
-	display: grid;
+.app {
+}
+
+.main {
+}
+
+.container {
+	max-width: 1316px;
+	margin: 0 auto;
 }
