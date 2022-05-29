@@ -1,0 +1,25 @@
+.nav {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.nav a {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 21px;
+	text-align: center;
+	letter-spacing: 0.25px;
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.7);
+	padding: 0 24px;
+}
+
+.nav :global(.active) {
+	color: #fff;
+	background: #1e88e5;
+}

@@ -1,19 +1,22 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Favorites from './pages/Favorites/Favorites';
-import cn from 'classnames';
 
 import styles from './App.module.css';
 
 const App = () => {
 	return (
 		<div className={styles.app}>
-			<main className={cn(styles.main, styles.container)}>
-				<Routes>
-					<Route path="/home" element={<Home />} />
-					<Route path="/favorites" element={<Favorites />} />
-				</Routes>
+			<Header />
+			<main className={styles.main}>
+				<div className={styles.container}>
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/favorites" element={<Favorites />} />
+					</Routes>
+				</div>
 			</main>
 		</div>
 	);
