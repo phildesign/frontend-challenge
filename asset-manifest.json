@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/phildesign/frontend-challenge/static/css/main.8948082a.css",
-    "main.js": "/phildesign/frontend-challenge/static/js/main.9171fa99.js",
-    "static/js/787.af996208.chunk.js": "/phildesign/frontend-challenge/static/js/787.af996208.chunk.js",
-    "index.html": "/phildesign/frontend-challenge/index.html",
-    "static/media/favorites.svg": "/phildesign/frontend-challenge/static/media/favorites.6adfe85f8b98c6dc6b44.svg",
-    "static/media/favorites-active.svg": "/phildesign/frontend-challenge/static/media/favorites-active.8220379cb36244a7738b.svg",
-    "main.8948082a.css.map": "/phildesign/frontend-challenge/static/css/main.8948082a.css.map",
-    "main.9171fa99.js.map": "/phildesign/frontend-challenge/static/js/main.9171fa99.js.map",
-    "787.af996208.chunk.js.map": "/phildesign/frontend-challenge/static/js/787.af996208.chunk.js.map"
+    "main.css": "/frontend-challenge/static/css/main.748e81b7.css",
+    "main.js": "/frontend-challenge/static/js/main.179565d7.js",
+    "static/js/787.af996208.chunk.js": "/frontend-challenge/static/js/787.af996208.chunk.js",
+    "index.html": "/frontend-challenge/index.html",
+    "static/media/favorites.svg": "/frontend-challenge/static/media/favorites.6adfe85f8b98c6dc6b44.svg",
+    "static/media/favorites-active.svg": "/frontend-challenge/static/media/favorites-active.8220379cb36244a7738b.svg",
+    "main.748e81b7.css.map": "/frontend-challenge/static/css/main.748e81b7.css.map",
+    "main.179565d7.js.map": "/frontend-challenge/static/js/main.179565d7.js.map",
+    "787.af996208.chunk.js.map": "/frontend-challenge/static/js/787.af996208.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8948082a.css",
-    "static/js/main.9171fa99.js"
+    "static/css/main.748e81b7.css",
+    "static/js/main.179565d7.js"
   ]
 }
