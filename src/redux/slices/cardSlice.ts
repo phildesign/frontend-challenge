@@ -12,7 +12,7 @@ const initialState: CardModel = {
 export const fetchData = createAsyncThunk('card/fetchData', async (_, { rejectWithValue }) => {
 	try {
 		const response = await fetch(
-			'https://api.thecatapi.com/v1/images/search?limit=100&page=1&order=DESC',
+			'https://api.thecatapi.com/v1/images/search?limit=15&page=1&order=DESC',
 		);
 		if (!response.ok) {
 			throw new Error('Server Error!');

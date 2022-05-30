@@ -1,2 +1,6 @@
 .favorites {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	gap: 48px;
+	padding: 50px 0;
 }

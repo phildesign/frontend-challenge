@@ -3,7 +3,7 @@ import Nav from '../Nav/Nav';
 
 import styles from './Header.module.css';
 
-const Header = () => {
+const Header = (): JSX.Element => {
 	return (
 		<header className={styles.header}>
 			<div className={styles.container}>

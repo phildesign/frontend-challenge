@@ -14,7 +14,8 @@
 .img {
 	max-width: 100%;
 	width: 100%;
-	height: auto;
+	height: 100%;
+	object-fit: cover;
 }
 
 .controls {
@@ -47,6 +48,6 @@
 	background: url('./favorites-active.svg');
 }
 
-.iconFavorites.active {
+.addToFavotitesBtn.isActive .iconFavorites {
 	background: url('./favorites-active.svg');
 }

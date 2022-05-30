@@ -10,9 +10,13 @@ const Card = ({ data: { card, like }, handleUpdateLike }: CardProps): JSX.Elemen
 
 	return (
 		<div className={styles.card}>
-			<img src="" alt="" className={styles.img} />
+			<img src={card.url} alt="" className={styles.img} />
 			<div className={styles.controls}>
-				<button className={styles.addToFavotitesBtn} onClick={handleUpdateLikeClick}>
+				<button
+					className={cn(styles.addToFavotitesBtn, {
+						[styles.isActive]: like,
+					})}
+					onClick={handleUpdateLikeClick}>
 					<div
 						className={cn(styles.iconFavorites, {
 							[styles.active]: false,

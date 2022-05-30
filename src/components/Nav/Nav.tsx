@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 import styles from './Nav.module.css';
 
-const Nav = () => {
+const Nav = (): JSX.Element => {
 	return (
 		<nav className={styles.nav}>
 			<NavLink to="/">Все котики</NavLink>
