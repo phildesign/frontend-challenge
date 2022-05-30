@@ -45,4 +45,4 @@
 - CSS Modules
 - classnames
 
-Ссылка на GitHub Pages - https://github.com/phildesign/frontend-challenge
+Ссылка на GitHub Pages - https://phildesign.github.io/frontend-challenge/
