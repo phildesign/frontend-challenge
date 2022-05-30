@@ -19,7 +19,15 @@ const Favorites = (): JSX.Element => {
 			return <Card key={item.card.id} data={item} handleUpdateLike={handleUpdateLike} />;
 		});
 
-	return <div className={styles.favorites}>{cardList}</div>;
+	return (
+		<div className={styles.favorites}>
+			{cardList.length === 0 ? (
+				<div className={styles.helpMessage}>Выберите кота :)</div>
+			) : (
+				cardList
+			)}
+		</div>
+	);
 };
 
 export default Favorites;

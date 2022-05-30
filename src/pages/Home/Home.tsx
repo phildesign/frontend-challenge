@@ -17,7 +17,11 @@ const Home = ({ data, loading }: HomeProps): JSX.Element => {
 		return <Card key={item.card.id} data={item} handleUpdateLike={handleUpdateLike} />;
 	});
 
-	return <div className={styles.home}>{loading ? <div>Loading...</div> : <>{cardList}</>}</div>;
+	return (
+		<div className={styles.home}>
+			{loading ? <div className={styles.loading}>Loading...</div> : <>{cardList}</>}
+		</div>
+	);
 };
 
 export default Home;
