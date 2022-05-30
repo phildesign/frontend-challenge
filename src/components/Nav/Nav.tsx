@@ -6,7 +6,7 @@ import styles from './Nav.module.css';
 const Nav = (): JSX.Element => {
 	return (
 		<nav className={styles.nav}>
-			<NavLink to="/">Все котики</NavLink>
+			<NavLink to="/frontend-challenge">Все котики</NavLink>
 			<NavLink to="/favorites">Любимые котики</NavLink>
 		</nav>
 	);

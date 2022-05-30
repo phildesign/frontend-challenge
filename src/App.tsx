@@ -22,7 +22,7 @@ const App = (): JSX.Element => {
 			<main className={styles.main}>
 				<div className={styles.container}>
 					<Routes>
-						<Route path="/" element={<Home data={data} loading={loading} />} />
+						<Route path="/frontend-challenge" element={<Home data={data} loading={loading} />} />
 						<Route path="/favorites" element={<Favorites />} />
 					</Routes>
 				</div>
