@@ -1,7 +1,8 @@
 .favorites {
 	display: grid;
-	grid-template-columns: repeat(5, 1fr);
+	grid-template-columns: repeat(auto-fill, 225px);
 	gap: 48px;
+	justify-content: center;
 	padding: 50px 0;
 }
 
