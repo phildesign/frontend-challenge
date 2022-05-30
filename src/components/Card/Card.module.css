@@ -26,6 +26,19 @@
 	position: absolute;
 	bottom: 0;
 	padding: 0 20px;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.3s;
+}
+
+.card:hover .controls {
+	opacity: 1;
+	visibility: visible;
+}
+
+.controls.isActive {
+	opacity: 1;
+	visibility: visible;
 }
 
 .addToFavotitesBtn {

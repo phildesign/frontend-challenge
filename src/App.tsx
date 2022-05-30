@@ -3,10 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 import Home from './pages/Home/Home';
 import Favorites from './pages/Favorites/Favorites';
-
-import styles from './App.module.css';
 import { useAppDispatch, useAppSelector } from './hooks/hooks';
 import { cardSelector, fetchData } from './redux/slices/cardSlice';
+
+import styles from './App.module.css';
 
 const App = (): JSX.Element => {
 	const { data, loading } = useAppSelector(cardSelector);
