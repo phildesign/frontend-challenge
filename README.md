@@ -43,6 +43,7 @@
 - Redux Toolkit
 - TypeScript
 - CSS Modules
+- react-router-dom
 - classnames
 
 Ссылка на GitHub Pages - https://phildesign.github.io/frontend-challenge/
